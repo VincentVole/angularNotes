@@ -1,0 +1,9 @@
+<div>
+	<form action="" (submit)='newNote($event)'>
+		<label for="note">Note:</label>
+		<input type="text" name="note" id="note"
+		[(ngModel)]='note.note'
+		>
+		<button>Add Note</button>
+	</form>
+</div>
